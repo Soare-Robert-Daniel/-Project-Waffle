@@ -150,20 +150,6 @@ int main(int argc, char** argv) {
 		cout << "Medie: " << studenti[i].getMedieSem() << "\n\n";	
 	}	
 	cout << "+---------------- [!] Phases Completed! -------------------+\n";
-	/*
-	Toata ziua Panamera,te rog nu ma dispera
-	Condu-ma te rog de unde nu
-	Nu ma striga ca nu ma intorc
-	Eu nu stiu de tine ca eu sunt rapper
-	Astia zic de mine ca am harfe de trapper
-	Cant haz in nas,nu ma potolesc,sunt mereu pe binger
-	Cu bratele pline de piese gramada
-	Nu ma bat cu tine,eu nu ies in strada
-	Am treaba cu mine si tu esti de treaba
-	Da' fetele tale ne pivesc ca pe o prada
-	Da' noi nu picam in prada lor
-	Si baietii tai stau mereu in jurul lor
-	Am intrat bine in an,sunt pe val,facem clan
-	*/
+	
 	return 0;
 }
