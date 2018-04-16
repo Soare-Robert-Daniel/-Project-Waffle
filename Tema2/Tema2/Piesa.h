@@ -11,7 +11,7 @@ public:
 	Piesa(char * cod, int pret);
 	Piesa(const Piesa &);
 	Piesa& operator=(const Piesa &);
-	int getPret();
+	virtual int getPret();
 	virtual void afisare();
 	virtual ~Piesa();
 };

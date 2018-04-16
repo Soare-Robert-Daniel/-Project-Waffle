@@ -13,8 +13,8 @@ public:
 	Ansamblu(Piesa_A &, Piesa_B * &);
 	Ansamblu(const Ansamblu &);
 	Ansamblu& operator=(const Ansamblu &);
-	void afisare();
-	int getPret();
+	virtual void afisare();
+	virtual int getPret();
 	virtual ~Ansamblu();
 };
 

@@ -4,8 +4,8 @@ class Object
 {
 public:
 	Object();
-	virtual int getPret() { return 0; };
-	virtual void afisare() {};
+	virtual int getPret() { return -1; };
+	virtual void afisare() { cout << "Nimic\n"; };
 	virtual ~Object();
 };
 

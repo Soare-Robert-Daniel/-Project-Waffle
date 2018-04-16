@@ -4,6 +4,7 @@
 #pragma warning(disable : 4996)
 Piesa_A::Piesa_A()
 {
+	this->gauri = 0;
 }
 
 Piesa_A::Piesa_A(char * cod, int pret, int gauri) : Piesa(cod, pret)

@@ -4,6 +4,7 @@
 #pragma warning(disable : 4996)
 Piesa_B::Piesa_B()
 {
+	this->culoare = NULL;
 }
 
 Piesa_B::Piesa_B(char * cod, int pret, char * culoare) : Piesa(cod, pret)
@@ -40,7 +41,7 @@ Piesa_B & Piesa_B::operator=(const Piesa_B & tmp)
 void Piesa_B::afisare()
 {
 	Piesa::afisare();
-	cout << "# Culoare " << this->culoare << '\n';
+	cout << "# Culoare: " << this->culoare << '\n';
 }
 
 
