@@ -25,7 +25,7 @@ Alimente & Alimente::operator=(const Alimente & tmp)
 {
 	if (this != &tmp)
 	{
-		(Produse)*this = (Produse)tmp;
+		(Produse)(*this) = (Produse)tmp;
 		this->ingrediente = tmp.ingrediente;
 		this->nutrienti = tmp.nutrienti;
 	}
